@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --background: #313131;
+  --gray: #525252;
+  --gray-darker: #414141;
+}
+
+@media(max-width:1080px) {
+  html {
+    font-size: 93.75%;
+  }
+}
+
+@media(max-width:720px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+body {
+  background-color: var(--background);
+}
