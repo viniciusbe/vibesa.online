@@ -7,8 +7,7 @@ const IndexPage = (): JSX.Element => {
         Hello, how are you doing?
       </h1>
       <p>
-        My name is Vinícius Bernardes. <br /> I am a Front-End developer,
-        currently open to work !
+        My name is Vinícius Bernardes. <br /> I am a Front-End developer !
       </p>
     </div>
   );

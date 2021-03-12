@@ -71,7 +71,7 @@ const Layout = ({
         </a>
       </div>
     </aside>
-    <main className="m-8 m-auto">{children}</main>
+    <main className="m-auto max-w-screen-lg">{children}</main>
   </div>
 );
 

@@ -1,15 +1,19 @@
 import Link from 'next/link';
 
 const AboutPage = (): JSX.Element => (
-  <>
-    <h1>About</h1>
-    <p>This is the about page</p>
+  <div className="text-xl text-center font-light">
+    <h1 className="text-4xl text-white font-semibold mb-4">About</h1>
     <p>
-      <Link href="/">
-        <a>Go home</a>
+      I was born in Curitiba/PR, Brazil, on 1998. Currently living in
+      Joinville/SC, studying Technology in Systems Analysis and Development on
+      UDESC.
+    </p>
+    <p className="mt-8">
+      <Link href="/portlfolio">
+        <a>see my portfolio</a>
       </Link>
     </p>
-  </>
+  </div>
 );
 
 export default AboutPage;
