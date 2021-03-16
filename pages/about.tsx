@@ -8,11 +8,6 @@ const AboutPage = (): JSX.Element => (
       Joinville/SC, studying Technology in Systems Analysis and Development on
       UDESC.
     </p>
-    <p className="mt-8">
-      <Link href="/portlfolio">
-        <a>see my portfolio</a>
-      </Link>
-    </p>
   </div>
 );
 
