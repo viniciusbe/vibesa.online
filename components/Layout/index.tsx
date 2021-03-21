@@ -15,15 +15,15 @@ const Layout = ({
   children,
   title = 'This is the default title',
 }: Props): JSX.Element => (
-  <div className="w-screen h-screen flex bg-gray-middle text-gray-300">
+  <div className="w-screen h-max flex bg-gray-middle text-gray-300">
     <Head>
       <title>{title}</title>
       <meta charSet="utf-8" />
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
     <aside
-      className="w-32 h-screen flex flex-col justify-between align-center
-      p-4 border-r-2 border-gray-darkest bg-gray-darker"
+      className="w-40 h-screen flex flex-col justify-between align-center
+      p-4 border-r-2 border-gray-darkest bg-gray-darker sticky top-0"
     >
       <Link href="/">
         <a>
@@ -45,7 +45,7 @@ const Layout = ({
           rel="noopener noreferrer"
         >
           <FaLinkedinIn
-            size="1.5rem"
+            size="1.3rem"
             className="fill-current text-white hover:text-custom-red"
           />
         </a>
@@ -55,7 +55,7 @@ const Layout = ({
           rel="noopener noreferrer"
         >
           <FaGithub
-            size="1.5rem"
+            size="1.3rem"
             className="fill-current text-white hover:text-custom-red"
           />
         </a>
@@ -65,13 +65,13 @@ const Layout = ({
           rel="noopener noreferrer"
         >
           <FaTwitter
-            size="1.5rem"
+            size="1.3rem"
             className="fill-current text-white hover:text-custom-red"
           />
         </a>
       </div>
     </aside>
-    <main className="m-auto w-2/3">{children}</main>
+    <main className="m-auto">{children}</main>
   </div>
 );
 
