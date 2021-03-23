@@ -15,6 +15,9 @@ module.exports = {
         },
         'custom-red': '#ca3e47'
       },
+      gridTemplateColumns: {
+        'layout':'160px 1fr'
+      }
     },
   },
   variants: {

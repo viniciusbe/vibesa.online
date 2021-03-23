@@ -6,8 +6,16 @@ const IndexPage = (): JSX.Element => {
       <h1 className="text-4xl text-white font-semibold mb-4">
         Hello, how are you doing?
       </h1>
+      <p>My name is Vinícius Bernardes.</p>
       <p>
-        My name is Vinícius Bernardes. <br /> I am a Front-End developer !
+        I am a <strong className="font-semibold">Front-End</strong> developer !
+      </p>
+      <p>
+        Here, you can know more <strong className="font-semibold">about</strong>{' '}
+        me
+      </p>
+      <p>
+        or see my <strong className="font-semibold">portfolio</strong>
       </p>
     </div>
   );
