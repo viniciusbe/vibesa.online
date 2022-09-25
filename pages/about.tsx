@@ -1,6 +1,4 @@
-import Link from 'next/link';
-
-const AboutPage = (): JSX.Element => (
+const AboutPage = () => (
   <div className="text-xl text-center font-light">
     <h1 className="text-4xl text-white font-semibold mb-4">About</h1>
     <p>

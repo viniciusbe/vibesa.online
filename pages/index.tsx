@@ -1,5 +1,3 @@
-import React from 'react';
-
 const IndexPage = (): JSX.Element => {
   return (
     <div className="text-xl text-center font-light">
